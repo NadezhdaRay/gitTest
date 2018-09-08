@@ -8,13 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		385A6359214057E8007744A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A6358214057E8007744A6 /* AppDelegate.m */; };
-		385A635C214057E8007744A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A635B214057E8007744A6 /* ViewController.m */; };
-		385A635F214057E8007744A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385A635D214057E8007744A6 /* Main.storyboard */; };
 		385A6361214057E9007744A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385A6360214057E9007744A6 /* Assets.xcassets */; };
 		385A6364214057E9007744A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385A6362214057E9007744A6 /* LaunchScreen.storyboard */; };
 		385A6367214057E9007744A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A6366214057E9007744A6 /* main.m */; };
 		385A6371214057EA007744A6 /* gitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A6370214057EA007744A6 /* gitTestTests.m */; };
 		385A637C214057EA007744A6 /* gitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A637B214057EA007744A6 /* gitTestUITests.m */; };
+		385A638E21405B30007744A6 /* ProfileNameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A638C21405B30007744A6 /* ProfileNameController.m */; };
+		385A638F21405B30007744A6 /* ProfileNameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385A638D21405B30007744A6 /* ProfileNameController.xib */; };
+		385A639521406142007744A6 /* RepositoriesListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A639321406142007744A6 /* RepositoriesListController.m */; };
+		385A639621406142007744A6 /* RepositoriesListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385A639421406142007744A6 /* RepositoriesListController.xib */; };
+		385A63A62141058C007744A6 /* RepositoriesListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A63A42141058C007744A6 /* RepositoriesListCell.m */; };
+		385A63A72141058C007744A6 /* RepositoriesListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385A63A52141058C007744A6 /* RepositoriesListCell.xib */; };
+		385A63AC214109D2007744A6 /* GitRepositoryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A63AB214109D2007744A6 /* GitRepositoryService.m */; };
+		385A63B221410EAB007744A6 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A63B121410EAB007744A6 /* Repository.m */; };
+		385A63BA214177CD007744A6 /* DateFormatterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A63B9214177CD007744A6 /* DateFormatterHelper.m */; };
+		385A63C82141BC88007744A6 /* BranchListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A63C62141BC88007744A6 /* BranchListController.m */; };
+		385A63C92141BC88007744A6 /* BranchListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385A63C72141BC88007744A6 /* BranchListController.xib */; };
+		385A63CD2141BD17007744A6 /* BranchListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A63CB2141BD17007744A6 /* BranchListCell.m */; };
+		385A63CE2141BD17007744A6 /* BranchListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385A63CC2141BD17007744A6 /* BranchListCell.xib */; };
+		385A63D32141C4EB007744A6 /* GitBranchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A63D22141C4EB007744A6 /* GitBranchService.m */; };
+		385A63D82141C94E007744A6 /* Branch.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A63D72141C94E007744A6 /* Branch.m */; };
+		385A63DC214273A4007744A6 /* GitCommitListService.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A63DB214273A4007744A6 /* GitCommitListService.m */; };
+		385A63E521427531007744A6 /* CommitsListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A63E321427531007744A6 /* CommitsListCell.m */; };
+		385A63E621427531007744A6 /* CommitsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385A63E421427531007744A6 /* CommitsListCell.xib */; };
+		385A63EA214277A5007744A6 /* Commit.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A63E9214277A5007744A6 /* Commit.m */; };
+		385A63EE21427B59007744A6 /* CommitsListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A63EC21427B59007744A6 /* CommitsListController.m */; };
+		385A63EF21427B59007744A6 /* CommitsListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385A63ED21427B59007744A6 /* CommitsListController.xib */; };
+		BC1DE7FF10DBEE0306F668E5 /* libPods-gitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0178E9C1C71B8A99004532 /* libPods-gitTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +55,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E0178E9C1C71B8A99004532 /* libPods-gitTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gitTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		385A6354214057E8007744A6 /* gitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		385A6357214057E8007744A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		385A6358214057E8007744A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		385A635A214057E8007744A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		385A635B214057E8007744A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		385A635E214057E8007744A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		385A6360214057E9007744A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		385A6363214057E9007744A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		385A6365214057E9007744A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +69,46 @@
 		385A6377214057EA007744A6 /* gitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		385A637B214057EA007744A6 /* gitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTestUITests.m; sourceTree = "<group>"; };
 		385A637D214057EA007744A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385A638B21405B30007744A6 /* ProfileNameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileNameController.h; sourceTree = "<group>"; };
+		385A638C21405B30007744A6 /* ProfileNameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileNameController.m; sourceTree = "<group>"; };
+		385A638D21405B30007744A6 /* ProfileNameController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileNameController.xib; sourceTree = "<group>"; };
+		385A639221406142007744A6 /* RepositoriesListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepositoriesListController.h; sourceTree = "<group>"; };
+		385A639321406142007744A6 /* RepositoriesListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepositoriesListController.m; sourceTree = "<group>"; };
+		385A639421406142007744A6 /* RepositoriesListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositoriesListController.xib; sourceTree = "<group>"; };
+		385A63A32141058C007744A6 /* RepositoriesListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepositoriesListCell.h; sourceTree = "<group>"; };
+		385A63A42141058C007744A6 /* RepositoriesListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepositoriesListCell.m; sourceTree = "<group>"; };
+		385A63A52141058C007744A6 /* RepositoriesListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositoriesListCell.xib; sourceTree = "<group>"; };
+		385A63AA214109D2007744A6 /* GitRepositoryService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitRepositoryService.h; sourceTree = "<group>"; };
+		385A63AB214109D2007744A6 /* GitRepositoryService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitRepositoryService.m; sourceTree = "<group>"; };
+		385A63AD21410A2A007744A6 /* GitRepositoryServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitRepositoryServiceProtocol.h; sourceTree = "<group>"; };
+		385A63B021410EAB007744A6 /* Repository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Repository.h; sourceTree = "<group>"; };
+		385A63B121410EAB007744A6 /* Repository.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Repository.m; sourceTree = "<group>"; };
+		385A63B8214177CD007744A6 /* DateFormatterHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateFormatterHelper.h; sourceTree = "<group>"; };
+		385A63B9214177CD007744A6 /* DateFormatterHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateFormatterHelper.m; sourceTree = "<group>"; };
+		385A63C52141BC88007744A6 /* BranchListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BranchListController.h; sourceTree = "<group>"; };
+		385A63C62141BC88007744A6 /* BranchListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BranchListController.m; sourceTree = "<group>"; };
+		385A63C72141BC88007744A6 /* BranchListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BranchListController.xib; sourceTree = "<group>"; };
+		385A63CA2141BD17007744A6 /* BranchListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BranchListCell.h; sourceTree = "<group>"; };
+		385A63CB2141BD17007744A6 /* BranchListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BranchListCell.m; sourceTree = "<group>"; };
+		385A63CC2141BD17007744A6 /* BranchListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BranchListCell.xib; sourceTree = "<group>"; };
+		385A63D12141C4EB007744A6 /* GitBranchService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitBranchService.h; sourceTree = "<group>"; };
+		385A63D22141C4EB007744A6 /* GitBranchService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitBranchService.m; sourceTree = "<group>"; };
+		385A63D42141C515007744A6 /* GitBranchServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitBranchServiceProtocol.h; sourceTree = "<group>"; };
+		385A63D62141C94E007744A6 /* Branch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Branch.h; sourceTree = "<group>"; };
+		385A63D72141C94E007744A6 /* Branch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Branch.m; sourceTree = "<group>"; };
+		385A63DA214273A4007744A6 /* GitCommitListService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitCommitListService.h; sourceTree = "<group>"; };
+		385A63DB214273A4007744A6 /* GitCommitListService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitCommitListService.m; sourceTree = "<group>"; };
+		385A63DD214273C1007744A6 /* GitCommitListServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitCommitListServiceProtocol.h; sourceTree = "<group>"; };
+		385A63E221427531007744A6 /* CommitsListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommitsListCell.h; sourceTree = "<group>"; };
+		385A63E321427531007744A6 /* CommitsListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommitsListCell.m; sourceTree = "<group>"; };
+		385A63E421427531007744A6 /* CommitsListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommitsListCell.xib; sourceTree = "<group>"; };
+		385A63E8214277A5007744A6 /* Commit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Commit.h; sourceTree = "<group>"; };
+		385A63E9214277A5007744A6 /* Commit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Commit.m; sourceTree = "<group>"; };
+		385A63EB21427B59007744A6 /* CommitsListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommitsListController.h; sourceTree = "<group>"; };
+		385A63EC21427B59007744A6 /* CommitsListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommitsListController.m; sourceTree = "<group>"; };
+		385A63ED21427B59007744A6 /* CommitsListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommitsListController.xib; sourceTree = "<group>"; };
+		407D52FBFDB5489F072F77BE /* Pods-gitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-gitTest/Pods-gitTest.release.xcconfig"; sourceTree = "<group>"; };
+		A93E062B55793DF8D30C97A0 /* Pods-gitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gitTest/Pods-gitTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC1DE7FF10DBEE0306F668E5 /* libPods-gitTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +144,8 @@
 				385A636F214057EA007744A6 /* gitTestTests */,
 				385A637A214057EA007744A6 /* gitTestUITests */,
 				385A6355214057E8007744A6 /* Products */,
+				7AAC6057C7396AF60B810B6C /* Pods */,
+				62AB4F59ADF1936640AE2E3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +162,13 @@
 		385A6356214057E8007744A6 /* gitTest */ = {
 			isa = PBXGroup;
 			children = (
-				385A6357214057E8007744A6 /* AppDelegate.h */,
-				385A6358214057E8007744A6 /* AppDelegate.m */,
-				385A635A214057E8007744A6 /* ViewController.h */,
-				385A635B214057E8007744A6 /* ViewController.m */,
-				385A635D214057E8007744A6 /* Main.storyboard */,
-				385A6360214057E9007744A6 /* Assets.xcassets */,
-				385A6362214057E9007744A6 /* LaunchScreen.storyboard */,
-				385A6365214057E9007744A6 /* Info.plist */,
-				385A6366214057E9007744A6 /* main.m */,
+				38B825D1214401E900C4DB95 /* AppDelegate */,
+				385A63BB214192BD007744A6 /* Helpers */,
+				385A63DE214274DC007744A6 /* CommitsListScreen */,
+				385A63BC21419496007744A6 /* BranchListScreen */,
+				385A6390214060DC007744A6 /* RepositoriesListScreen */,
+				385A638921405A8B007744A6 /* ProfileNameScreen */,
+				38B825D0214401CD00C4DB95 /* Resources */,
 			);
 			path = gitTest;
 			sourceTree = "<group>";
@@ -132,6 +191,300 @@
 			path = gitTestUITests;
 			sourceTree = "<group>";
 		};
+		385A638921405A8B007744A6 /* ProfileNameScreen */ = {
+			isa = PBXGroup;
+			children = (
+				385A638A21405AFB007744A6 /* ProfileNameController */,
+			);
+			path = ProfileNameScreen;
+			sourceTree = "<group>";
+		};
+		385A638A21405AFB007744A6 /* ProfileNameController */ = {
+			isa = PBXGroup;
+			children = (
+				385A638B21405B30007744A6 /* ProfileNameController.h */,
+				385A638C21405B30007744A6 /* ProfileNameController.m */,
+				385A638D21405B30007744A6 /* ProfileNameController.xib */,
+			);
+			path = ProfileNameController;
+			sourceTree = "<group>";
+		};
+		385A6390214060DC007744A6 /* RepositoriesListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				38B825CD2144019400C4DB95 /* Models */,
+				38B825CC2144015F00C4DB95 /* Services */,
+				385A63A121410545007744A6 /* Views */,
+				385A639121406106007744A6 /* RepositoriesListController */,
+			);
+			path = RepositoriesListScreen;
+			sourceTree = "<group>";
+		};
+		385A639121406106007744A6 /* RepositoriesListController */ = {
+			isa = PBXGroup;
+			children = (
+				385A639221406142007744A6 /* RepositoriesListController.h */,
+				385A639321406142007744A6 /* RepositoriesListController.m */,
+				385A639421406142007744A6 /* RepositoriesListController.xib */,
+			);
+			path = RepositoriesListController;
+			sourceTree = "<group>";
+		};
+		385A63A121410545007744A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				385A63A221410553007744A6 /* RepositoriesListCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		385A63A221410553007744A6 /* RepositoriesListCell */ = {
+			isa = PBXGroup;
+			children = (
+				385A63A32141058C007744A6 /* RepositoriesListCell.h */,
+				385A63A42141058C007744A6 /* RepositoriesListCell.m */,
+				385A63A52141058C007744A6 /* RepositoriesListCell.xib */,
+			);
+			path = RepositoriesListCell;
+			sourceTree = "<group>";
+		};
+		385A63A921410994007744A6 /* GitRepositoryService */ = {
+			isa = PBXGroup;
+			children = (
+				385A63AA214109D2007744A6 /* GitRepositoryService.h */,
+				385A63AB214109D2007744A6 /* GitRepositoryService.m */,
+				385A63AD21410A2A007744A6 /* GitRepositoryServiceProtocol.h */,
+			);
+			path = GitRepositoryService;
+			sourceTree = "<group>";
+		};
+		385A63AF21410E97007744A6 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				385A63B021410EAB007744A6 /* Repository.h */,
+				385A63B121410EAB007744A6 /* Repository.m */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		385A63B7214177AE007744A6 /* DateFormatterHelper */ = {
+			isa = PBXGroup;
+			children = (
+				385A63B8214177CD007744A6 /* DateFormatterHelper.h */,
+				385A63B9214177CD007744A6 /* DateFormatterHelper.m */,
+			);
+			path = DateFormatterHelper;
+			sourceTree = "<group>";
+		};
+		385A63BB214192BD007744A6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				385A63B7214177AE007744A6 /* DateFormatterHelper */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		385A63BC21419496007744A6 /* BranchListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				38B825CE2144019D00C4DB95 /* Models */,
+				38B825CA2144013E00C4DB95 /* Services */,
+				385A63C32141BB40007744A6 /* Views */,
+				385A63BD214194BB007744A6 /* BranchListController */,
+			);
+			path = BranchListScreen;
+			sourceTree = "<group>";
+		};
+		385A63BD214194BB007744A6 /* BranchListController */ = {
+			isa = PBXGroup;
+			children = (
+				385A63C52141BC88007744A6 /* BranchListController.h */,
+				385A63C62141BC88007744A6 /* BranchListController.m */,
+				385A63C72141BC88007744A6 /* BranchListController.xib */,
+			);
+			path = BranchListController;
+			sourceTree = "<group>";
+		};
+		385A63C32141BB40007744A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				385A63C42141BB50007744A6 /* BranchListCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		385A63C42141BB50007744A6 /* BranchListCell */ = {
+			isa = PBXGroup;
+			children = (
+				385A63CA2141BD17007744A6 /* BranchListCell.h */,
+				385A63CB2141BD17007744A6 /* BranchListCell.m */,
+				385A63CC2141BD17007744A6 /* BranchListCell.xib */,
+			);
+			path = BranchListCell;
+			sourceTree = "<group>";
+		};
+		385A63CF2141C4B3007744A6 /* GitBranchService */ = {
+			isa = PBXGroup;
+			children = (
+				385A63D12141C4EB007744A6 /* GitBranchService.h */,
+				385A63D22141C4EB007744A6 /* GitBranchService.m */,
+				385A63D42141C515007744A6 /* GitBranchServiceProtocol.h */,
+			);
+			path = GitBranchService;
+			sourceTree = "<group>";
+		};
+		385A63D52141C931007744A6 /* Branch */ = {
+			isa = PBXGroup;
+			children = (
+				385A63D62141C94E007744A6 /* Branch.h */,
+				385A63D72141C94E007744A6 /* Branch.m */,
+			);
+			path = Branch;
+			sourceTree = "<group>";
+		};
+		385A63D921427335007744A6 /* GitCommitListService */ = {
+			isa = PBXGroup;
+			children = (
+				385A63DA214273A4007744A6 /* GitCommitListService.h */,
+				385A63DB214273A4007744A6 /* GitCommitListService.m */,
+				385A63DD214273C1007744A6 /* GitCommitListServiceProtocol.h */,
+			);
+			path = GitCommitListService;
+			sourceTree = "<group>";
+		};
+		385A63DE214274DC007744A6 /* CommitsListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				38B825CF214401AA00C4DB95 /* Models */,
+				38B825CB2144015100C4DB95 /* Services */,
+				385A63E021427503007744A6 /* Views */,
+				385A63DF214274F2007744A6 /* CommitsListContrroller */,
+			);
+			path = CommitsListScreen;
+			sourceTree = "<group>";
+		};
+		385A63DF214274F2007744A6 /* CommitsListContrroller */ = {
+			isa = PBXGroup;
+			children = (
+				385A63EB21427B59007744A6 /* CommitsListController.h */,
+				385A63EC21427B59007744A6 /* CommitsListController.m */,
+				385A63ED21427B59007744A6 /* CommitsListController.xib */,
+			);
+			path = CommitsListContrroller;
+			sourceTree = "<group>";
+		};
+		385A63E021427503007744A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				385A63E12142750A007744A6 /* CommitsListCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		385A63E12142750A007744A6 /* CommitsListCell */ = {
+			isa = PBXGroup;
+			children = (
+				385A63E221427531007744A6 /* CommitsListCell.h */,
+				385A63E321427531007744A6 /* CommitsListCell.m */,
+				385A63E421427531007744A6 /* CommitsListCell.xib */,
+			);
+			path = CommitsListCell;
+			sourceTree = "<group>";
+		};
+		385A63E72142778D007744A6 /* Commit */ = {
+			isa = PBXGroup;
+			children = (
+				385A63E8214277A5007744A6 /* Commit.h */,
+				385A63E9214277A5007744A6 /* Commit.m */,
+			);
+			path = Commit;
+			sourceTree = "<group>";
+		};
+		38B825CA2144013E00C4DB95 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				385A63CF2141C4B3007744A6 /* GitBranchService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		38B825CB2144015100C4DB95 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				385A63D921427335007744A6 /* GitCommitListService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		38B825CC2144015F00C4DB95 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				385A63A921410994007744A6 /* GitRepositoryService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		38B825CD2144019400C4DB95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				385A63AF21410E97007744A6 /* Repository */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		38B825CE2144019D00C4DB95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				385A63D52141C931007744A6 /* Branch */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		38B825CF214401AA00C4DB95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				385A63E72142778D007744A6 /* Commit */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		38B825D0214401CD00C4DB95 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				385A6360214057E9007744A6 /* Assets.xcassets */,
+				385A6362214057E9007744A6 /* LaunchScreen.storyboard */,
+				385A6365214057E9007744A6 /* Info.plist */,
+				385A6366214057E9007744A6 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		38B825D1214401E900C4DB95 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				385A6357214057E8007744A6 /* AppDelegate.h */,
+				385A6358214057E8007744A6 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		62AB4F59ADF1936640AE2E3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E0178E9C1C71B8A99004532 /* libPods-gitTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AAC6057C7396AF60B810B6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A93E062B55793DF8D30C97A0 /* Pods-gitTest.debug.xcconfig */,
+				407D52FBFDB5489F072F77BE /* Pods-gitTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +492,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 385A6380214057EA007744A6 /* Build configuration list for PBXNativeTarget "gitTest" */;
 			buildPhases = (
+				24FC9816CDA5A71F3BDFF015 /* [CP] Check Pods Manifest.lock */,
 				385A6350214057E8007744A6 /* Sources */,
 				385A6351214057E8007744A6 /* Frameworks */,
 				385A6352214057E8007744A6 /* Resources */,
@@ -235,9 +589,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385A639621406142007744A6 /* RepositoriesListController.xib in Resources */,
+				385A63A72141058C007744A6 /* RepositoriesListCell.xib in Resources */,
+				385A63EF21427B59007744A6 /* CommitsListController.xib in Resources */,
+				385A638F21405B30007744A6 /* ProfileNameController.xib in Resources */,
 				385A6364214057E9007744A6 /* LaunchScreen.storyboard in Resources */,
+				385A63E621427531007744A6 /* CommitsListCell.xib in Resources */,
+				385A63CE2141BD17007744A6 /* BranchListCell.xib in Resources */,
 				385A6361214057E9007744A6 /* Assets.xcassets in Resources */,
-				385A635F214057E8007744A6 /* Main.storyboard in Resources */,
+				385A63C92141BC88007744A6 /* BranchListController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +617,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24FC9816CDA5A71F3BDFF015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gitTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		385A6350214057E8007744A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				385A635C214057E8007744A6 /* ViewController.m in Sources */,
+				385A63B221410EAB007744A6 /* Repository.m in Sources */,
+				385A63CD2141BD17007744A6 /* BranchListCell.m in Sources */,
+				385A63DC214273A4007744A6 /* GitCommitListService.m in Sources */,
 				385A6367214057E9007744A6 /* main.m in Sources */,
 				385A6359214057E8007744A6 /* AppDelegate.m in Sources */,
+				385A63AC214109D2007744A6 /* GitRepositoryService.m in Sources */,
+				385A63D32141C4EB007744A6 /* GitBranchService.m in Sources */,
+				385A638E21405B30007744A6 /* ProfileNameController.m in Sources */,
+				385A63A62141058C007744A6 /* RepositoriesListCell.m in Sources */,
+				385A63EA214277A5007744A6 /* Commit.m in Sources */,
+				385A63BA214177CD007744A6 /* DateFormatterHelper.m in Sources */,
+				385A63E521427531007744A6 /* CommitsListCell.m in Sources */,
+				385A63D82141C94E007744A6 /* Branch.m in Sources */,
+				385A639521406142007744A6 /* RepositoriesListController.m in Sources */,
+				385A63EE21427B59007744A6 /* CommitsListController.m in Sources */,
+				385A63C82141BC88007744A6 /* BranchListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +694,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		385A635D214057E8007744A6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				385A635E214057E8007744A6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		385A6362214057E9007744A6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,11 +819,12 @@
 		};
 		385A6381214057EA007744A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93E062B55793DF8D30C97A0 /* Pods-gitTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = USKJPV2W96;
-				INFOPLIST_FILE = gitTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/gitTest/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +837,12 @@
 		};
 		385A6382214057EA007744A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407D52FBFDB5489F072F77BE /* Pods-gitTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = USKJPV2W96;
-				INFOPLIST_FILE = gitTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/gitTest/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
